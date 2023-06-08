@@ -1,0 +1,30 @@
+.Footer-component p,
+.Footer-component h4,
+.Footer-component a {
+  color: var(--footer-text) !important;
+}
+
+.footer-title {
+  opacity: 0.6 !important;
+}
+
+.social-links {
+  display: flex;
+  gap: 10px;
+}
+
+.social-links a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background: #2c2c2c;
+  display: grid;
+  place-content: center;
+  border-radius: 50%;
+  transition: 0.2s;
+  font-size: 18px;
+}
+
+.social-links a:hover {
+  background: var(--primary-color);
+}

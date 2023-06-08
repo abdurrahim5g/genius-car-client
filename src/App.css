@@ -1,5 +1,10 @@
 :root {
   --primary-color: #ff3811;
+  --title-color: #444444;
+  --text-color: #a2a2a2;
+  --hover-color: #ff3811;
+  --footer-bg: #151515;
+  --footer-text: #e7e7e7;
 }
 
 .car-container {
