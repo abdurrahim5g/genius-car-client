@@ -4,7 +4,7 @@ import "./Home.css";
 const Home = () => {
   // update page title
   updateDocumentTitle("Home");
-  return <div className="Home-page">home</div>;
+  return <div className="Home-page">Home</div>;
 };
 
 export default Home;
