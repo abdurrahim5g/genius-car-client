@@ -1,17 +1,11 @@
-import { useEffect, useState } from "react";
 import AwesomeSlider from "react-awesome-slider";
 import "react-awesome-slider/dist/styles.css";
 import "./HeroSlider.css";
-import { Link } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 
 const HeroSlider = () => {
-  const [services, setServices] = useState([]);
+  const services = useLoaderData();
 
-  useEffect(() => {
-    fetch("services.json")
-      .then((res) => res.json())
-      .then((data) => setServices(data));
-  }, []);
   return (
     <div className="hero-slider">
       <AwesomeSlider>
