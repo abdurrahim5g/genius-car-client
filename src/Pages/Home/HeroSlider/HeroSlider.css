@@ -31,3 +31,18 @@
 a.checkout-btn:hover {
   opacity: 0.8;
 }
+
+nav.awssld__bullets {
+  bottom: 10px;
+  z-index: 2;
+}
+
+nav.awssld__bullets button {
+  background: var(--primary-color);
+  opacity: 0.6;
+}
+
+nav.awssld__bullets button.awssld__bullets--active {
+  background: var(--primary-color);
+  opacity: 1;
+}
